@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/chethanakh/streaming-media/issues"
   },
-  "homepage": "https://github.com/chethanakh/streaming-media#readme"
+  "homepage": "https://github.com/chethanakh/streaming-media#readme",
+  "dependencies": {
+    "mime-types": "^2.1.35"
+  }
 }

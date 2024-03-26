@@ -1,3 +1,5 @@
+const fs = require("fs");
+const mime = require('mime-types');
 /**
  * Function for getting a certain number of recipes.
  * NOTE: The req object should include a "count" query parameter.
@@ -34,5 +36,9 @@ function mediaStreaming(req,res,filePath) {
     const videoStream = fs.createReadStream(filePath, { start, end });
     videoStream.pipe(res);
 }
-  
+
+function mbToBytes(size) {
+    return size * 1000000
+}
+
 module.exports = mediaStreaming
