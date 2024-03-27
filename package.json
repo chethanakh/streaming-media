@@ -1,6 +1,6 @@
 {
   "name": "streaming-media",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Effortlessly stream media files over HTTP. Elevate your app's multimedia experience with ease.",
   "main": "index.js",
   "scripts": {

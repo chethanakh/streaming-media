@@ -52,12 +52,12 @@ http.createServer(function(req, res) {
 
 ## Need to contribute
 1. go to the [github]('https://github.com/chethanakh/streaming-media/') repo and rise a issue(if you found the issue or feature).
-2. create branch (on top of the master) with below format.
+2. create branch (on top of the dev branch) with below format.
     - MS-<issue_number> -> *Ex: MS-1*
 3. do your code change and make a single commit with below format.
     - <type(fix or feat)>(app): <your's-branch-name> commit message
     - ex : feat(app): MS-1 i did awesome future for you.
-4. then make PR to the main branch
+4. then make PR to the dev branch
 
 That's it.
 
