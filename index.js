@@ -1,10 +1,10 @@
 const fs = require("fs");
 const mime = require('mime-types');
 /**
- * Function for getting a certain number of recipes.
- * NOTE: The req object should include a "count" query parameter.
+ * Function for streaming media file.
+ * NOTE: The req object should include a "range" as headers parameter.
  * 
- * req: Request being passed in from the server.js
+ * req: Request being passed in from the source js file
  * res: Response that will be sent back.
  * filePath: media file path that you need to stream (this should be need to relative).
  *
