@@ -10,10 +10,11 @@ const mime = require('mime-types');
  *
  */
 function mediaStreaming(req,res,filePath) {
-    const selectedFile = req.params.file;
     const range = req.headers.range;
     if (!range) {
-        res.status(400).send("range header not fond on the request");
+        res.writeHead(400,"range header not fond on the request");
+        res.end();
+        return null;
     }
     
     const file = fs.statSync(filePath)
