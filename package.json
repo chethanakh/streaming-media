@@ -1,7 +1,7 @@
 {
   "name": "streaming-media",
   "version": "1.0.2",
-  "description": "Effortlessly stream media files over HTTP in Express. Elevate your app's multimedia experience with ease.",
+  "description": "Effortlessly stream media files over HTTP. Elevate your app's multimedia experience with ease.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,9 +11,13 @@
     "url": "git+https://github.com/chethanakh/streaming-media.git"
   },
   "keywords": [
-    "meadi-striming",
-    "streeming-http",
-    "express-video-streem"
+    "media-streaming",
+    "streaming-http",
+    "express-video-streaming",
+    "youtube-type-media-stream",
+    "youtube-server",
+    "netflix-server",
+    "spotify"
   ],
   "author": "chethanakh",
   "license": "ISC",
